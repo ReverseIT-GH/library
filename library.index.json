@@ -25,5 +25,70 @@
         "creation_date": "2001-03-31",
         "publication_date": "2022-09-25",
         "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/A/AndreaGeddon/Kripton2 Patching the Beast.pdf"
+	},
+    {
+        "title": "How to develop an unpacker: The StarForce case",
+        "description": "Slide sul funzionamento dei packers/unpackers",
+        "categories" : [
+            "Unpacking"
+        ],
+        "author": "Eloi Vanderbeken",
+        "language": "en",
+        "version": "1.0",
+        "creation_date": "2017-04-07",
+        "publication_date": "2022-10-28",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/E/Eloi Vanderbeken/How to develop an unpacker.pdf"
+	},
+    {
+        "title": "The Art of Unpacking",
+        "description": "Slide sull'unpacking e sulle tecniche di anti-RE",
+        "categories" : [
+            "Unpacking"
+        ],
+        "author": "Mark Vincent Yason",
+        "language": "en",
+        "version": "1.0",
+        "creation_date": "2017-01-01",
+        "publication_date": "2022-10-28",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/M/Mark Vincent Yason/The Art of Unpacking.pdf"
+	},
+    {
+        "title": "General Unpacking: Overview and Techniques",
+        "description": "Interessante documento sull'unpacking di vari packers",
+        "categories" : [
+            "Unpacking"
+        ],
+        "author": "Danut Niculae",
+        "language": "en",
+        "version": "1.0",
+        "creation_date": "2015-05-18",
+        "publication_date": "2022-10-28",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/D/Danut Niculae/General Unpacking.pdf"
+	},
+    {
+        "title": "La Nuova Guida Al Cracking",
+        "description": "Documento riguardante il RE di programmi scritti in .NET",
+        "categories" : [
+            "Cracking"
+        ],
+        "author": "Ntoskrnl",
+        "language": "it",
+        "version": "1.0",
+        "creation_date": "2005-01-01",
+        "publication_date": "2022-10-28",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/N/Ntoskrnl/La Nuova Guida Al Cracking.pdf"
+	},
+    {
+        "title": "MEW 1.2 Manual Unpacking",
+        "description": "Guida sull'unpacking manuale di MEW 1.2",
+        "categories" : [
+            "Unpacking"
+        ],
+        "author": "evo",
+        "language": "it",
+        "version": "1.0",
+        "creation_date": "2006-02-02",
+        "publication_date": "2022-10-28",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/E/evo/MEW 1.2 Manual Unpacking.pdf"
 	}
 ]
