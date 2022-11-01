@@ -155,5 +155,70 @@
         "creation_date": "~",
         "publication_date": "2022-11-01",
         "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/Q/Quake2/Creazione di una DLL in Win32Asm.pdf"
+	},
+    {
+        "title": "Safedisc 1.06-1.11 Cracking (Midtown Madness)",
+        "description": "Rimozione di Safedisc 1.06-1.11 (EN)",
+        "categories" : [
+            "Cracking"
+        ],
+        "author": "Luca D'Amico",
+        "language": "en",
+        "version": "1.0",
+        "creation_date": "2022-03-29",
+        "publication_date": "2022-11-01",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/L/Luca D'Amico/MidtownMadness.pdf"
+	},
+    {
+        "title": "Safedisc 1.06-1.11 Cracking (Midtown Madness)",
+        "description": "Rimozione di Safedisc 1.06-1.11 (ITA)",
+        "categories" : [
+            "Cracking"
+        ],
+        "author": "Luca D'Amico",
+        "language": "it",
+        "version": "1.0",
+        "creation_date": "2022-04-07",
+        "publication_date": "2022-11-01",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/L/Luca D'Amico/MidtownMadness_ITA.pdf"
+	},
+    {
+        "title": "Laserlock Cracking (Evolva)",
+        "description": "Rimozione di Laserlock (EN)",
+        "categories" : [
+            "Cracking"
+        ],
+        "author": "Luca D'Amico",
+        "language": "en",
+        "version": "1.0",
+        "creation_date": "2022-04-20",
+        "publication_date": "2022-11-01",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/L/Luca D'Amico/Evolva.pdf"
+	},
+    {
+        "title": "Laserlock Cracking (Evolva)",
+        "description": "Rimozione di Laserlock (ITA)",
+        "categories" : [
+            "Cracking"
+        ],
+        "author": "Luca D'Amico",
+        "language": "it",
+        "version": "1.0",
+        "creation_date": "2022-04-20",
+        "publication_date": "2022-11-01",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/L/Luca D'Amico/Evolva_ITA.pdf"
+	},
+    {
+        "title": "SecuROM *new* 4.48.00.0004 Cracking (Arabian Nights)",
+        "description": "Rimozione di SecuROM *new* 4.48.00.0004",
+        "categories" : [
+            "Cracking"
+        ],
+        "author": "Luca D'Amico",
+        "language": "it",
+        "version": "1.0",
+        "creation_date": "2022-05-05",
+        "publication_date": "2022-11-01",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/L/Luca D'Amico/ArabianNights_ITA.pdf"
 	}
 ]
