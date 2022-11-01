@@ -90,5 +90,70 @@
         "creation_date": "2006-02-02",
         "publication_date": "2022-10-28",
         "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/E/evo/MEW 1.2 Manual Unpacking.pdf"
+	},
+    {
+        "title": "Architettura dell'x86",
+        "description": "Breve introduzione all'architettura dei processori x86",
+        "categories" : [
+            "Programming"
+        ],
+        "author": "AndreaGeddon",
+        "language": "it",
+        "version": "1.0",
+        "creation_date": "~",
+        "publication_date": "2022-11-01",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/A/AndreaGeddon/Architettura x86.pdf"
+	},
+    {
+        "title": "Matematica binaria e esadecimale",
+        "description": "Introduzione alla matematica binaria ed esadecimale",
+        "categories" : [
+            "Programming"
+        ],
+        "author": "Spider",
+        "language": "it",
+        "version": "1.0",
+        "creation_date": "2001-10-01",
+        "publication_date": "2022-11-01",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/S/Spider/Matematica binaria e esadecimale.pdf"
+	},
+    {
+        "title": "Finestre in Win32",
+        "description": "Alcuni esempi sulla creazione di finestre (win32)",
+        "categories" : [
+            "Programming"
+        ],
+        "author": "Spider",
+        "language": "it",
+        "version": "1.0",
+        "creation_date": "2001-10-01",
+        "publication_date": "2022-11-01",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/S/Spider/Finestre in Win32.pdf"
+	},
+    {
+        "title": "Architettura dei processori Intel",
+        "description": "Introduzione sull'architettura dei processori Intel x86",
+        "categories" : [
+            "Programming"
+        ],
+        "author": "Spider",
+        "language": "it",
+        "version": "1.0",
+        "creation_date": "2001-10-01",
+        "publication_date": "2022-11-01",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/S/Spider/Architettura dei processori Intel.pdf"
+	},
+    {
+        "title": "Creazione di una DLL in Win32Asm",
+        "description": "Esempio sulla creazione di dll in assembly",
+        "categories" : [
+            "Programming"
+        ],
+        "author": "Quake2",
+        "language": "it",
+        "version": "1.0",
+        "creation_date": "~",
+        "publication_date": "2022-11-01",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/Q/Quake2/Creazione di una DLL in Win32Asm.pdf"
 	}
 ]
