@@ -220,5 +220,58 @@
         "creation_date": "2022-05-05",
         "publication_date": "2022-11-01",
         "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/L/Luca D'Amico/ArabianNights_ITA.pdf"
+	},
+    {
+        "title": "Phoenix's Crackme 1",
+        "description": "Soluzione del Phoenix's Crackme 1",
+        "categories" : [
+            "Crackmes"
+        ],
+        "author": "Andy74",
+        "language": "it",
+        "version": "1.0",
+        "creation_date": "2004-01-03",
+        "publication_date": "2022-11-20",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/A/Andy74/Phoenix's Crackme 1.pdf"
+	},
+    {
+        "title": "Saggio sul PEditor 1.6",
+        "description": "Saggio sul formato e sull'editing dei PE",
+        "categories" : [
+            "Windows Internals"
+        ],
+        "author": "AndreaGeddon",
+        "language": "it",
+        "version": "1.0",
+        "creation_date": "2000-11-02",
+        "publication_date": "2022-11-20",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/A/AndreaGeddon/Saggio sul PEditor 1.6.pdf"
+	},
+    {
+        "title": "Xor",
+        "description": "Brevissima spiegazione di OR e XOR",
+        "categories" : [
+            "Programming"
+        ],
+        "author": "Quequero",
+        "language": "it",
+        "version": "1.0",
+        "creation_date": "1999-04-18",
+        "publication_date": "2022-11-20",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/Q/Quequero/Xor.pdf"
+	},
+    {
+        "title": "Winamp Reversing",
+        "description": "Patching di Winamp per eseguire mp3 in formato crittato (XOR)",
+        "categories" : [
+            "Hacking",
+            "Programming"
+        ],
+        "author": "+Malattia",
+        "language": "it",
+        "version": "1.0",
+        "creation_date": "~",
+        "publication_date": "2022-11-20",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/+/+Malattia/Winamp Reversing.pdf"
 	}
 ]
