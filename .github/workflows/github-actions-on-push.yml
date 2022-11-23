@@ -8,7 +8,8 @@ jobs:
   post-on-twitter:
     runs-on: ubuntu-latest
     steps:
-      - uses: ethomson/send-tweet-action@v1
+    - name: Post On Twitter
+        uses: ethomson/send-tweet-action@v1
         with:
           status: "New library update ---> " ${{ github.event.head_commit.message }}
           consumer-key: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
