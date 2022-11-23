@@ -273,5 +273,19 @@
         "creation_date": "~",
         "publication_date": "2022-11-20",
         "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/+/+Malattia/Winamp Reversing.pdf"
+	},
+    {
+        "title": "Assemblers And Loaders",
+        "description": "Libro (gratuito) sul funzionamento degli assembler e dei linker/loader",
+        "categories" : [
+            "Programming",
+            "Windows Internals"
+        ],
+        "author": "David Salomon",
+        "language": "en",
+        "version": "1.0",
+        "creation_date": "1993-02-01",
+        "publication_date": "2022-11-23",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/D/David Salomon/Assemblers And Loaders.pdf"
 	}
 ]
