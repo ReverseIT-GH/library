@@ -11,7 +11,7 @@ jobs:
       - name: Post On Twitter
         uses: ethomson/send-tweet-action@v1
         with:
-          status: "New library update ---> " ${{ github.event.head_commit.message }}
+          status: New library update ---> ${{ github.event.head_commit.message }}
           consumer-key: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
           consumer-secret: ${{ secrets.TWITTER_CONSUMER_API_SECRET }}
           access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
