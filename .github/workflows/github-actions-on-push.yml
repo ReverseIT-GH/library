@@ -27,5 +27,5 @@ jobs:
               owner: 'ReverseIT-GH',
               repo: 'reverseit-gh.github.io',
               workflow_id: 'github-actions-build-and-deploy.yml',
-              ref: 'main'
+              ref: 'master'
             })
