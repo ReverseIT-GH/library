@@ -5,7 +5,7 @@ on:
       - master
 
 jobs:
-  post-on-twitter:
+  on-push:
     runs-on: ubuntu-latest
     steps:
       - name: Post On Twitter
@@ -17,17 +17,15 @@ jobs:
           TWITTER_CONSUMER_API_SECRET: ${{ secrets.TWITTER_CONSUMER_API_SECRET }}
           TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
           TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
-  
-  post-on-reddit:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: bluwy/release-for-reddit-action@v1
+      
+      - name: Trigger website rebuild
+        uses: actions/github-script@v6
         with:
-          username: ${{ secrets.REDDIT_USERNAME }}
-          password: ${{ secrets.REDDIT_PASSWORD }}
-          app-id: ${{ secrets.REDDIT_APP_ID }}
-          app-secret: ${{ secrets.REDDIT_APP_SECRET }}
-          subreddit: ReverseIT
-          title: "New library update ---> ${{ github.event.head_commit.message }}"
-          url: https://reverseit.space/library
-          flair-id: def7e362-6b79-11ed-8fc3-2af7abb6ccac
+          github-token: ${{ secrets.PAT_TOKEN }}
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: 'ReverseIT-GH',
+              repo: 'reverseit-gh.github.io',
+              workflow_id: 'github-actions-build-and-deploy.yml',
+              ref: 'library'
+            })
