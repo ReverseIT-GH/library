@@ -24,6 +24,6 @@ jobs:
         app-secret: ${{ secrets.REDDIT_APP_SECRET }}
         subreddit: ReverseIT
         title: "Weekly Library Update Thread"
-        comment: "This week commits: $WEEKLY_COMMITS"
+        comment: "This week commits: ${{ env.WEEKLY_COMMITS }}"
         url: https://reverseit.space/library
         flair-id: def7e362-6b79-11ed-8fc3-2af7abb6ccac
