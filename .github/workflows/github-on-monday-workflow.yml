@@ -13,7 +13,7 @@ jobs:
       uses: actions/checkout@v3
 
     - name: Create Weekly Commit List
-      run: echo 'WEEKLY_COMMITS=$(git log --format=%B --since=7.days)' >> $GITHUB_ENV
+      run: echo "WEEKLY_COMMITS=$(git log --format=%B --since=7.days) << EOF" >> $GITHUB_ENV
 
     - name: Post On Reddit
       uses: bluwy/release-for-reddit-action@v1
@@ -24,6 +24,6 @@ jobs:
         app-secret: ${{ secrets.REDDIT_APP_SECRET }}
         subreddit: ReverseIT
         title: "Weekly Library Update Thread"
-        comment: "This week commits: ${{ env.WEEKLY_COMMITS }}"
+        comment:  ${{ env.WEEKLY_COMMITS }}
         url: https://reverseit.space/library
         flair-id: def7e362-6b79-11ed-8fc3-2af7abb6ccac
