@@ -1,0 +1,28 @@
+name: On Monday Workflow
+
+on:
+  schedule:
+    - cron: '0 7 * * MON' # At 07:00 on Monday
+
+jobs:
+  on-monday:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Create Weekly Commit List
+      run: echo "WEEKLY_COMMITS=$(git log --format=%B --since=7.days | tr '\n' '⭐')" >> $GITHUB_ENV
+
+    - name: Post On Reddit
+      uses: bluwy/release-for-reddit-action@v1
+      with:
+        username: ${{ secrets.REDDIT_USERNAME }}
+        password: ${{ secrets.REDDIT_PASSWORD }}
+        app-id: ${{ secrets.REDDIT_APP_ID }}
+        app-secret: ${{ secrets.REDDIT_APP_SECRET }}
+        subreddit: ReverseIT
+        title: "Weekly Library Update Thread"
+        comment: "This week commits: $WEEKLY_COMMITS"
+        url: https://reverseit.space/library
+        flair-id: def7e362-6b79-11ed-8fc3-2af7abb6ccac
