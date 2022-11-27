@@ -13,7 +13,7 @@ jobs:
       uses: actions/checkout@v3
 
     - name: Create Weekly Commit List
-      run: echo WEEKLY_COMMITS=$(git log --format=%B --since=7.days | tr '\n' '-') >> $GITHUB_ENV
+      run: echo WEEKLY_COMMITS=$(git log --format=%B --since=7.days) >> $GITHUB_ENV
 
     - name: Post On Reddit
       uses: bluwy/release-for-reddit-action@v1
