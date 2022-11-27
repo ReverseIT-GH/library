@@ -1,6 +1,7 @@
 name: On Monday Workflow
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 7 * * MON' # At 07:00 on Monday
 

@@ -1,6 +1,8 @@
-name: On Push Actions
+name: On Push Workflow
+
 on:
- push:
+  workflow_dispatch:
+  push:
     branches:
       - master
 
