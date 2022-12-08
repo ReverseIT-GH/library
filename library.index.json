@@ -287,5 +287,19 @@
         "creation_date": "1993-02-01",
         "publication_date": "2022-11-23",
         "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/D/David Salomon/Assemblers And Loaders.pdf"
+	},
+    {
+        "title": "Ripping functions from PE binaries",
+        "description": "Articolo che spiega come usare TMG Ripper Studio per estrarre funzioni dagli eseguibili PE",
+        "categories" : [
+            "Hacking",
+            "Programming"
+        ],
+        "author": "jglim",
+        "language": "en",
+        "version": "1.0",
+        "creation_date": "2018-06-02",
+        "publication_date": "2022-12-08",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/J/jglim/Ripping functions from PE binaries and reusing them elsewhere.pdf"
 	}
 ]
