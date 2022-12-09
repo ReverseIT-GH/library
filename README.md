@@ -63,7 +63,7 @@ Le categorie attualmente dispobili sono:
 * Malware Analysis
 * Programming
 * Unpacking
-* Windows Internals
+* Windows Internals / DOS Internals
 
 Se si ritiene che il documento non rientri in nessuna di queste categorie, occorre farlo presente nel testo della PR, in modo tale da verificare la possibilità di crearne una nuova.
 
