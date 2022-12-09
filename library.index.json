@@ -301,5 +301,45 @@
         "creation_date": "2018-06-02",
         "publication_date": "2022-12-08",
         "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/J/jglim/Ripping functions from PE binaries and reusing them elsewhere.pdf"
+	},
+    {
+        "title": "Visual_Basic",
+        "description": "Rapida guida ai tipi, API e comandi di Visual Basic (native code)",
+        "categories" : [
+            "Programming"
+        ],
+        "author": "CodeCracker",
+        "language": "en",
+        "version": "1.0",
+        "creation_date": "2016-04-25",
+        "publication_date": "2022-12-09",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/C/CodeCracker/Visual_Basic.pdf"
+	},
+    {
+        "title": "Understanding DOS",
+        "description": "Strumenti ed esempi di debugging su DOS",
+        "categories" : [
+            "DOS Internals"
+        ],
+        "author": "CodeCracker",
+        "language": "en",
+        "version": "1.0",
+        "creation_date": "2017-08-26",
+        "publication_date": "2022-12-09",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/C/CodeCracker/Understanding DOS.pdf"
+	},
+    {
+        "title": "Defeating the VB5 Packer",
+        "description": "Articolo sull'unpacking di packer VB6 (Vitamina)",
+        "categories" : [
+            "Unpacking",
+            "Malware Analysis"
+        ],
+        "author": "R3MRUM",
+        "language": "en",
+        "version": "1.0",
+        "creation_date": "2017-06-07",
+        "publication_date": "2022-12-09",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/R/R3MRUM/Defeating the VB5 Packer.pdf"
 	}
 ]

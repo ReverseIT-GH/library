@@ -1,0 +1,324 @@
+%PDF-1.1
+1 0 obj
+<<
+/CreationDate (D:20221209122703)
+/Producer (text2pdf v1.1 (\251 Phil Smith, 1996))
+/Title (Understanding DOS.txt)
+>>
+endobj
+2 0 obj
+<<
+/Type /Catalog
+/Pages 3 0 R
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F1
+/BaseFont /Courier
+>>
+endobj
+5 0 obj
+<<
+  /Font << /F1 4 0 R >>
+  /ProcSet [ /PDF /Text ]
+>>
+endobj
+6 0 obj
+<<
+/Type /Page
+/Parent 3 0 R
+/Resources 5 0 R
+/Contents 7 0 R
+>>
+endobj
+7 0 obj
+<<
+/Length 8 0 R
+>>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 50 752 Tm
+12 TL
+(Understanding DOS by CodeCracker/SND\015)'
+(\015)'
+(Tools used:\015)'
+(1. Dos Box 7.4\015)'
+(For executing DOS program on Windows x64 \(64 bits\) I have to use DosBox\015)'
+(dosbox-74: DOS emulator, the advantage is that you can run DOS programs on Windo)'
+(ws 7 64 bits.\015)'
+(We execute the dosbox.exe\015)'
+(and we type this command:\015)'
+(MOUNT [Drive-Letter] [Local-Directory]\015)'
+(to mount Local-Directory on DriveLetter specified\015)'
+(like\015)'
+(mount X D:\\DirectoryName\015)'
+(\015)'
+(2. GUI Turbo Assembler\015)'
+(Just google for GUI Turbo Assembler v3.0.1.msi\015)'
+(This is a gui for the old turbo assembler.\015)'
+(It require Microsoft .NET Framework 4.\015)'
+(It uses dosbox.\015)'
+(\015)'
+(How to use GUI Turbo Assembler guide:\015)'
+(Step 1: Create file \(assembler code\)\015)'
+(Enter assembler code and save the file,\015)'
+(attention: file name should be in dos style:\015)'
+(not bigger then 8 characters in size and shouldn't contain\015)'
+(special characters like space \(" "\).\015)'
+(Step 2: Create the executable file \(.exe\)\015)'
+(Click on Tools->Build \(Alt+B\)\015)'
+(Now you will be asked "Source file has not been assembled. Do you want to assemb)'
+(le it now?"\015)'
+(Ofcourse choose "Yes" to that question.\015)'
+(Next question: "Source file has been assembled. Do you want to build it now?"\015)'
+(Ofcourse choose "Yes" to that question.\015)'
+(Step 3: Execute the exe file\015)'
+(You could choose Tools->Assemble, Build & Run \(F9\)\015)'
+(then you should see the program executed in a console window!\015)'
+(Alternative you could execute the generated exe file in dosbox.\015)'
+(\015)'
+(3. Tool called: symdeb\015)'
+(A commandline DOS debugger, you must type command in command line\015)'
+(of the program!\015)'
+(Under dos command line we type:\015)'
+(symdeb exefilename\015)'
+(for exemple\015)'
+(symdeb CrackME!.EXE\015)'
+(in order to start debugging CrackME!.EXE\015)'
+(By entering t\015)'
+(\(trace\) in symdeb command line and pressing Enter\015)'
+(you will trace line by line!\015)'
+(? - program help\015)'
+(q - quit from program\015)'
+(d codesegment:address - will display data at that address\015)'
+(u codesegment:address - will display code at that address\015)'
+(r - \(simple\) show registers and dissasm to cs:ip\015)'
+(? E - this means asking what is E?\015)'
+(for editing enter "e cs:ip", the default data type is byte\015)'
+(\015)'
+(For specifing the type of data:\015)'
+(<type> : Byte, Word, Doubleword, Asciz, Shortreal, Longreal, Tenbytereal\015)'
+(- you should enter only the first letter like B, W, D etc.\015)'
+ET
+endstream
+endobj
+8 0 obj
+2613
+endobj
+9 0 obj
+<<
+/Type /Page
+/Parent 3 0 R
+/Resources 5 0 R
+/Contents 10 0 R
+>>
+endobj
+10 0 obj
+<<
+/Length 11 0 R
+>>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 50 752 Tm
+12 TL
+(The program \(symdeb\) has an error: I doesn't recognize whell the space \(' '\)\015)'
+(Stupid solution: don't enter any space\015)'
+(so instead of: e B cs:ip\015)'
+(enter: eBcs:ip\015)'
+(It looks like sheet but it works! It is a bug from symdeb,\015)'
+(anyway nothing is perfect in this world!\015)'
+(\015)'
+(\015)'
+(4. Tools called: insight \(insight.com\)\015)'
+(Insight 1.24, a visual DOS debugger,\015)'
+(GUI for GDB debugger\015)'
+(First time press F10 to show the menu,\015)'
+(then click File->Load... F3\015)'
+(\015)'
+(Most important commands:\015)'
+(Step over: F8\015)'
+(Step into: F7\015)'
+(Run : Ctrl+F9 - crap: when I use the hotkey program silence exits! \(DON'T USE ho)'
+(tkeys!\) \015)'
+(Ctrl+G: go to address code - specify segment:address like cs:address\015)'
+(Ctrl+D: go to address dump - data - specify segment:address like ds:address\015)'
+(Ctrl+R: switch bettwen 32 bits registers and 16 bits registers\015)'
+(Ctrl+S: search\015)'
+(Ctrl+B: Copy/Fill/Write/Read\015)'
+(Ctrl+M: memory blocks\015)'
+(quit - exit from current crap!\015)'
+(Alt+F5 - show dos window\015)'
+(Alt+U - Show and Dump User Screen correspondingly\015)'
+(Alt+L - something regarding dump\015)'
+(Alternative tool: SD\015)'
+(\015)'
+(\015)'
+(\015)'
+(5. The Decompiler project was initiated in order to decompile MS-DOS EXE\015)'
+(and COM binaries. The project has both a command-line and a GUI tool:\015)'
+(https://sourceforge.net/projects/decompiler/\015)'
+(Use the following command with the command-line tool to decompile COM programs:\015)'
+()'
+(decompile --default-to ms-dos-com myprog.com\015)'
+(\015)'
+(In the GUI, use the menu command File > Open as... to open the COM file and\015)'
+(specify a start address like 0800:0100.\015)'
+(\015)'
+(Honorable tools to mention:\015)'
+(CUP386 - generic manual unpacker\015)'
+(DeGlucker - DOS debugger, interface similarly with SoftIce\015)'
+(but not terminate and stay resident \(TSR\)\015)'
+(\015)'
+(\015)'
+(TASM EXAMPLES \(the power of examples\)\015)'
+(Example 1: Simple hello word program\015)'
+(\015)'
+(; Turbo Assembler Copyright \(c\) 1988, 1991 By Borland International, Inc.\015)'
+(; HELLO.ASM - Display the message "Hello World"\015)'
+(.model small\015)'
+(.stack 100h\015)'
+(.data\015)'
+(HelloMessage DB 'Hello, world!',13,10,'$'\015)'
+(.code\015)'
+(start:\015)'
+ET
+endstream
+endobj
+11 0 obj
+2349
+endobj
+12 0 obj
+<<
+/Type /Page
+/Parent 3 0 R
+/Resources 5 0 R
+/Contents 13 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 14 0 R
+>>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 50 752 Tm
+12 TL
+(mov ax,@data\015)'
+(mov ds,ax ;set DS to point to the data segment\015)'
+(mov ah,9 ;DOS print string function\015)'
+(mov dx,OFFSET HelloMessage ; point to "Hello, world!"\015)'
+(int 21h ;display "Hello, world!"\015)'
+(mov ah,4ch ;DOS terminate program function\015)'
+(int 21h ;terminate the program\015)'
+(end start\015)'
+(\015)'
+(\015)'
+(Example 2: Copy data with repz movsb\015)'
+(Source DS:SI, Destination ES:DI\015)'
+(\015)'
+(; MOVSB.ASM - Copy string from source to destination\015)'
+(.model small\015)'
+(.stack 100h\015)'
+(.data\015)'
+(SourceStr1 DB 'String to be copied!','$'\015)'
+(DestinationStr2   DB   50   DUP\(0\)\015)'
+(.code\015)'
+(start:\015)'
+(mov ax,@data\015)'
+(mov ds,ax     ;initialize ds\015)'
+(mov es,ax     ;and es\015)'
+(lea si,[SourceStr1] ;si points to source string\015)'
+(lea di,[DestinationStr2] ;di points to destination string\015)'
+(mov cx,5      ;number of chars \(bytes\) to be copied\015)'
+(; in cx supposed to be length in chars of SourceStr1\015)'
+(rep movsb     ;copy the string\015)'
+(\015)'
+(mov ah,4ch ;DOS terminate program function\015)'
+(int 21h ;terminate the program\015)'
+(end start\015)'
+(\015)'
+(\015)'
+(Example 3: Altering code section\015)'
+(\015)'
+(; csalter.asm - alter code \(cs\), in DOS no protections\015)'
+(.model small\015)'
+(.stack 100h\015)'
+(.code\015)'
+(start:\015)'
+(mov ax,01 ; this is the instruction which will be altered\015)'
+(mov word ptr [cs:start],09090h ;write two bytes \(2 nops\) on start\015)'
+(mov byte ptr [cs:start+2],090h ; write one byte \(1 nop\) on start+2\015)'
+(; yep, no memory protections in DOS, is kind of stupid!\015)'
+(\015)'
+(mov ah,4ch ;DOS terminate program function\015)'
+(int 21h ;terminate the program\015)'
+(end start\015)'
+(\015)'
+(\015)'
+(In DOS you can only use psihical memory and doesn't have virtual memory,\015)'
+(like Windows. In DOS memory is not linear like in Windows but\015)'
+(segmented memory, google for x86 memory segmentation,\015)'
+(The physical address is calculated by shifting the segment address \(16-bit\)\015)'
+(left 4 times and adding it with the 16-bit offset address.\015)'
+(In other words by multiplying the segment with 10 hexadecimal\015)'
+(\(which is 16 in decimal\), and adding offset address.\015)'
+(200A:B608 and 2138:A328 gives the same physical address: 2B6A8\015)'
+ET
+endstream
+endobj
+14 0 obj
+2342
+endobj
+15 0 obj
+<<
+/Type /Page
+/Parent 3 0 R
+/Resources 5 0 R
+/Contents 16 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 17 0 R
+>>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 50 752 Tm
+12 TL
+(The intersting part: if we substract 1 from cs \(segment address\)\015)'
+(and we add 10 hexadecimal to offset address we get same psihical address.\015)'
+(Naturally same physical address means same value!\015)'
+(\015)'
+()'
+ET
+endstream
+endobj
+17 0 obj
+264
+endobj
+3 0 obj
+<<
+/Type /Pages
+/Count 4
+/MediaBox [ 0 0 612 792 ]
+/Kids [ 6 0 R 9 0 R 12 0 R 15 0 R ]
+>>
+endobj
+xref
+0 18
+0000000000 65535 f 0000000009 00000 n 0000000144 00000 n 0000008531 00000 n 0000000193 00000 n 0000000271 00000 n 0000000342 00000 n 0000000422 00000 n 0000003087 00000 n 0000003107 00000 n 0000003188 00000 n 0000005591 00000 n 0000005612 00000 n 0000005694 00000 n 0000008090 00000 n 0000008111 00000 n 0000008193 00000 n 0000008511 00000 n trailer
+<<
+/Size 18
+/Root 2 0 R
+/Info 1 0 R
+>>
+startxref
+8636
+%%EOF
