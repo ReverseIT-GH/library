@@ -432,5 +432,31 @@
         "creation_date": "1999-07-01",
         "publication_date": "2022-12-11",
         "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/A/ALoR/The Italian CRaCKiNG Encyclopedia vol. 8.pdf"
+	},
+    {
+        "title": "Unpacking Eziriz .Net Reactor 3.9.8.0",
+        "description": "Unpacking di .Net Reactor versione 3.9.8.0",
+        "categories" : [
+            "Unpacking"
+        ],
+        "author": "CodeRipper",
+        "language": "en",
+        "version": "1.0",
+        "creation_date": "2009-03-31",
+        "publication_date": "2022-12-17",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/C/CodeRipper/Unpacking_Net_Reactor_ 3.9.8.0_SND.pdf"
+	},
+    {
+        "title": "Reverse .NET Software IX",
+        "description": "Unpack e studio approfondito di .Net Reactor 3.9.8.0",
+        "categories" : [
+            "Unpacking"
+        ],
+        "author": "Rongchaua",
+        "language": "en",
+        "version": "1.0",
+        "creation_date": "2009-04-13",
+        "publication_date": "2022-12-17",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/R/Rongchaua/Reverse .NET Software  IX.pdf"
 	}
 ]
