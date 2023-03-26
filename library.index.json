@@ -210,7 +210,7 @@
 	},
     {
         "title": "SecuROM *new* 4.48.00.0004 Cracking (Arabian Nights)",
-        "description": "Rimozione di SecuROM *new* 4.48.00.0004",
+        "description": "Rimozione di SecuROM *new* 4.48.00.0004 (ITA)",
         "categories" : [
             "Cracking"
         ],
@@ -484,5 +484,33 @@
         "creation_date": "2006-04-01",
         "publication_date": "2023-01-19",
         "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/G/Goppit/Win32 Assembler Coding for Crackers v11.chm"
+	},
+    {
+        "title": "SecuROM *new* 4.48.00.0004 Cracking (Arabian Nights)",
+        "description": "Rimozione di SecuROM *new* 4.48.00.0004 (EN)",
+        "categories" : [
+            "Cracking"
+        ],
+        "author": "Luca D'Amico",
+        "language": "en",
+        "version": "1.0",
+        "creation_date": "2023-03-11",
+        "publication_date": "2023-03-26",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/L/Luca D'Amico/ArabianNights.pdf"
+
+	},
+    {
+        "title": "SecuROM *new* 3.06.00.0003 Cracking (South Park Rally)",
+        "description": "Rimozione di SecuROM *new* 3.06.00.0003 (ITA)",
+        "categories" : [
+            "Cracking"
+        ],
+        "author": "Luca D'Amico",
+        "language": "it",
+        "version": "1.0",
+        "creation_date": "2023-03-24",
+        "publication_date": "2023-03-26",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/L/Luca D'Amico/SouthParkRally_ITA.pdf"
+
 	}
 ]
