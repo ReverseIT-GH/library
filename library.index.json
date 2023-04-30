@@ -524,5 +524,74 @@
         "creation_date": "2008-11-09",
         "publication_date": "2023-03-26",
         "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/J/Joshua Tully/An Anti-Reverse Engineering Guide.pdf"
+	},
+    {
+        "title": "Introduction to NT Internals Part 1: Processes, Threads, Fibers and Jobs",
+        "description": "Informazioni su varie caratteristiche del kernel NT (prima parte)",
+        "categories" : [
+            "Windows Internals"
+        ],
+        "author": "RELSOFT TECHNOLOGIES",
+        "language": "en",
+        "version": "1.0",
+        "creation_date": "2004-06-16",
+        "publication_date": "2023-04-30",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/R/RELSOFT TECHNOLOGIES/Introduction to NT Internals: Part 1.pdf"
+	},
+    {
+        "title": "Laserlock SPEEnc (Tennis Masters Series 2003)",
+        "description": "Documento tecnico sulla rimozione di Laserlock versione SPEEnc",
+        "categories" : [
+            "Cracking"
+        ],
+        "author": "uLysse",
+        "language": "en",
+        "version": "1.0",
+        "creation_date": "2007-02-27",
+        "publication_date": "2023-04-30",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/U/uLysse/Laserlock SPEEnc (Tennis Masters Series 2003).pdf"
+	},
+    {
+        "title": "Manual unpacking !EP 1.4",
+        "description": "Unpacking manuale di Exe Pack 1.4",
+        "categories" : [
+            "Unpacking"
+        ],
+        "author": "EvOlUtIoN",
+        "language": "en",
+        "version": "1.0",
+        "creation_date": "2006-07-30",
+        "publication_date": "2023-04-30",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/E/EvOlUtIoN/Manual unpacking !EP 1.4.pdf"
+	},
+    {
+        "title": "1337 Exe Crypter 1",
+        "description": "Unpacking manuale di 1337 Exe Crypter 1",
+        "categories" : [
+            "Unpacking"
+        ],
+        "author": "Solid",
+        "language": "en",
+        "version": "1.0",
+        "creation_date": "2007-10-15",
+        "publication_date": "2023-04-30",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/S/Solid/1337 Exe Crypter 1.pdf"
+	},
+    {
+        "title": "Black Mass",
+        "description": "Prima e-zine di vx-underground",
+        "categories" : [
+            "Malware Analysis",
+            "Windows Internals",
+            "Programming",
+            "Cyber Security",
+            "Hacking"
+        ],
+        "author": "vx-underground",
+        "language": "en",
+        "version": "1.0",
+        "creation_date": "2022-10-31",
+        "publication_date": "2023-04-30",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/V/vx-underground/Black Mass.pdf"
 	}
 ]
