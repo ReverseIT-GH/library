@@ -593,5 +593,20 @@
         "creation_date": "2022-10-31",
         "publication_date": "2023-04-30",
         "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/V/vx-underground/Black Mass.pdf"
+	},
+    {
+        "title": "How to Write Your Own Packer",
+        "description": "Articolo sullo sviluppo di packers",
+        "categories" : [
+            "Programming",
+            "Windows Internals",
+            "Unpacking"
+        ],
+        "author": "BigBoote",
+        "language": "en",
+        "version": "1.0",
+        "creation_date": "2006-11-09",
+        "publication_date": "2023-04-30",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/B/BigBoote/How to Write Your Own Packer.pdf"
 	}
 ]
