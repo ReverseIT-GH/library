@@ -650,5 +650,33 @@
         "creation_date": "2004-05-10",
         "publication_date": "2023-06-04",
         "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/D/Dracon/Adding Functions To Any Program Using A DLL.pdf"
+	},
+    {
+        "title": "Adding Imports by Hand",
+        "description": "Tutorial sulla modifica manuale della Import Table",
+        "categories" : [
+            "Windows Internals",
+            "Hacking"
+        ],
+        "author": "Eduardo Labir",
+        "language": "en",
+        "version": "1.0",
+        "creation_date": "2004-04-09",
+        "publication_date": "2023-06-04",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/E/Eduardo Labir/Adding Imports by Hand.pdf"
+	},
+    {
+        "title": "Adding sections to PE Files",
+        "description": "Tutorial sull'aggiunta di sections ai file PE",
+        "categories" : [
+            "Windows Internals",
+            "Hacking"
+        ],
+        "author": " c0v3rt+",
+        "language": "en",
+        "version": "1.0",
+        "creation_date": "1999-07-10",
+        "publication_date": "2023-06-04",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/C/c0v3rt+/Adding sections to PE Files.pdf"
 	}
 ]
