@@ -34,7 +34,7 @@ Segui attentamente le seguenti istruzioni per essere sicuro che il tuo contribut
 1) Leggi attentamente la nostra politica sui contenuti
 2) Se sei l'autore originale del documento, esportalo in formato PDF e continua dal punto 3. Se invece vuoi inviare un documento che hai trovato in rete, assicurati di produrre un PDF valido usando esclusivamente il tool opensource *wkhtmltopdf*. La sintassi da usare è la seguente:
 
-`wkhtmltopdf url_pagina_web nome_documento.pdf`
+`wkhtmltopdf -T 0 -B 0 -L 0 -R 0 url_pagina_web nome_documento.pdf`
 
 3) Esegui il fork di questo repository. Crea un nuovo branch con un nome significativo (ad esempio il titolo del documento che vuoi inviare). Copia il file in `/library/INIZIALE_NOME_AUTORE_ORIGINALE/`, se non esiste gia una cartella con l'iniziale del nome dell'autore originale, procedere creandola. Infine modificare il file `library.index.json` aggiungendo, alla fine di esso, il seguente nodo json opportunamente valozziato (rispettando l'indentatura):
 
@@ -58,6 +58,7 @@ Segui attentamente le seguenti istruzioni per essere sicuro che il tuo contribut
 Le categorie attualmente dispobili sono:
 * Cracking
 * Crackmes
+* Cryptography
 * Cyber Security
 * Hacking
 * Malware Analysis
