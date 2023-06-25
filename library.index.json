@@ -678,5 +678,18 @@
         "creation_date": "1999-07-10",
         "publication_date": "2023-06-04",
         "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/C/c0v3rt+/Adding sections to PE Files.pdf"
+	},
+    {
+        "title": "Disk Knight Worm Analysis",
+        "description": "Analisi del worm Disk Knight (ITA)",
+        "categories" : [
+            "Malware Analysis"
+        ],
+        "author": " Luca D'Amico",
+        "language": "it",
+        "version": "1.0",
+        "creation_date": "2023-06-25",
+        "publication_date": "2023-06-25",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/L/Luca D'Amico/DiskKnight_ITA.pdf"
 	}
 ]
