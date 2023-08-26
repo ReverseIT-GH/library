@@ -704,5 +704,31 @@
         "creation_date": "2023-06-29",
         "publication_date": "2023-07-05",
         "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/L/Luca D'Amico/DiskKnight.pdf"
+	},
+    {
+        "title": "Pepsi 2.0 Unpacking",
+        "description": "Unpacking di Pepsi 2.0 (ITA)",
+        "categories" : [
+            "Unpacking"
+        ],
+        "author": "Luca D'Amico",
+        "language": "it",
+        "version": "1.0",
+        "creation_date": "2023-08-19",
+        "publication_date": "2023-08-26",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/L/Luca D'Amico/Pepsi_2.0_ITA.pdf"
+	},
+    {
+        "title": "Pepsi 2.0 Unpacking (English version)",
+        "description": "Unpacking di Pepsi 2.0 (ENG)",
+        "categories" : [
+            "Unpacking"
+        ],
+        "author": "Luca D'Amico",
+        "language": "en",
+        "version": "1.0",
+        "creation_date": "2023-08-21",
+        "publication_date": "2023-08-26",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/L/Luca D'Amico/Pepsi_2.0.pdf"
 	}
 ]
