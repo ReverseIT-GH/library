@@ -747,5 +747,44 @@
         "creation_date": "2023-09-19",
         "publication_date": "2023-11-03",
         "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/V/vx-underground/Black Mass Volume II.pdf"
+	},
+    {
+        "title": "Win2000 bootsector reversing (versione Fat32)",
+        "description": "Reverse engineering del bootsector di Windows 2000",
+        "categories" : [
+            "Windows Internals"
+        ],
+        "author": "Albe",
+        "language": "it",
+        "version": "1.0",
+        "creation_date": "2002-01-16",
+        "publication_date": "2023-11-08",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/A/Albe/Win2000 bootsector reversing (versione Fat32).pdf"
+	},
+    {
+        "title": "Killing Neolite 2",
+        "description": "Manual unpacking di NeoLite2",
+        "categories" : [
+            "Unpacking"
+        ],
+        "author": "-Death_Reaver-",
+        "language": "it",
+        "version": "1.0",
+        "creation_date": "2005-09-07",
+        "publication_date": "2023-11-08",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/-/-Death_Reaver-/Killing Neolite 2.pdf"
+	},
+    {
+        "title": "Unpacking di PC Guard 5.0",
+        "description": "Manual unpacking di PC Guard 5.0",
+        "categories" : [
+            "Unpacking"
+        ],
+        "author": "epokh",
+        "language": "it",
+        "version": "1.0",
+        "creation_date": "2005-03-08",
+        "publication_date": "2023-11-08",
+        "download_url": "https://raw.githubusercontent.com/ReverseIT-GH/library/master/library/E/epokh/Unpacking di PC Guard 5.0.pdf"
 	}
 ]
